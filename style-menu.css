@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.logo {
+    font-size: 30%;
+    padding-left: 30%;
+}
+
+.gridmenu {
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #000;
+    padding: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#menu-h ul li a {
+    font-size: 20px;
+    padding-top: 6%;
+    text-indent: 40px;
+}
