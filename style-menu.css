@@ -1,18 +1,20 @@
 * {
     margin: 0;
     padding: 0;
+    padding-top: 0.2%;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 .logo {
-    font-size: 30%;
-    padding-left: 30%;
+    width: 80%;
 }
 
 .gridmenu {
     display: grid;
-    grid-template-columns: 50% 25% 25%;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 50% 50%;
 }
 
 #menu-h ul {
@@ -36,4 +38,8 @@
     font-size: 20px;
     padding-top: 6%;
     text-indent: 40px;
+}
+
+#menu-h ul li a:hover {
+    color: red;
 }
