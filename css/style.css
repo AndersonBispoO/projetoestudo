@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(../img/projeto-banner.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.cursos {
+  padding-left: 3%;
+}
+
+.cursos:hover {
+  opacity: 0.5;
+}
+
+.sobre {
+  padding-top: 25%;
+}
+
+.sobre:hover {
+  opacity: 0.5;
+}
+
+.contato {
+  padding-top: 25%;
+}
+
+.contato:hover {
+  opacity: 0.5;
+}
+
+.login:hover {
+  opacity: 0.5;
+}
+
+@media (min-width: 940px) {
+  .login {
+    padding-top: 20%;
+    width: 60%;
+  }
+  .logo1 {
+    text-align: center;
+    padding-top: 8%;
+  }
+}
+@media (max-width: 940px) {
+  .menu {
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+  }
+  .login {
+    padding-top: 20%;
+  }
+  .logo1 {
+    position: fixed;
+    width: 500px;
+    height: 200px;
+    margin: 5% auto; /* Will not center vertically and won't work in IE6/7. */
+    left: 0;
+    right: 0;
+  }
+}
