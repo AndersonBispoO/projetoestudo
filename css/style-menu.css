@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  padding-top: 0.2%;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+#boximg {
+  margin-left: 50px;
+}
+.logo {
+  width: 350px;
+  height: 80px;
+}
+.navbar-nav {
+  text-align: right;
+}
+.gridmenu {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 50% 50%;
+}
+
+#menu-h {
+  margin-right: 50px;
+}
+#menu-h a {
+  color: #000;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#menu-h a {
+  font-size: 20px;
+  text-indent: 40px;
+}
+
+#menu-h a:hover {
+  color: red;
+}
+
+@media (max-width: 719px) {
+  .logo {
+    width: 220px;
+    height: 50px;
+  }
+}
+@media (max-width: 400px) {
+  .logo {
+    width: 170px;
+    height: 40px;
+  }
+}
+@media (max-width: 300px) {
+  .logo {
+    width: 130px;
+    height: 30px;
+  }
+}
