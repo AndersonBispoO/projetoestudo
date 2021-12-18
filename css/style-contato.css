@@ -36,3 +36,28 @@ body::after {
     text-align: center;
     padding-top: 2rem;
 }
+
+.contatobutton {
+    text-align: center;
+    padding-top: 18rem;
+}
+
+.contatobutton button {
+    margin: 0 15px;
+}
+
+.contato-btn {
+    padding: 20px;
+    text-decoration: none;
+    border: none;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    border-radius: 50px;
+    width: 20rem;
+}
+
+.contato-btn:hover {
+    background-color: transparent;
+    border: 2px solid rgb(24, 24, 24);
+    color: rgb(24, 24, 24);
+}

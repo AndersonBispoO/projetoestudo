@@ -36,3 +36,8 @@ body::after {
     text-align: center;
     padding-top: 2rem;
 }
+
+.texto-sobre h1 {
+    text-align: center;
+    padding-top: 5rem;
+}
