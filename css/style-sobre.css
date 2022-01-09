@@ -5,7 +5,9 @@
 
 body::after {
     content: "";
-    background: url(../img/sobre2.jpg);
+    background: url(../img/images.png) no-repeat;
+    background-position: 65rem;
+    background-size: 35rem;
     opacity: 0.3;
     top: 0;
     left: 0;

@@ -5,7 +5,9 @@
 
 body::after {
     content: "";
-    background: url(../img/cursos1.jpg);
+    background: url(../img/cursos-a-aq.jpg) no-repeat;
+    background-position: center;
+    background-size: 100%;
     opacity: 0.3;
     top: 0;
     left: 0;
@@ -43,7 +45,7 @@ body::after {
 }
 
 .botoes button {
-    margin: 0 15px;
+    margin: 0 305px;
 }
 
 .cursos-btn {
