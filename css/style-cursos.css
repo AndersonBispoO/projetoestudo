@@ -79,3 +79,28 @@ body::after {
     border: 2px solid rgb(24, 24, 24);
     color: rgb(24, 24, 24);
 }
+
+.cursoum {
+    text-align: center;
+}
+
+.cursoum img{
+    padding-top: 1rem;
+    width: 500px;
+}
+
+.curso-btnum {
+    padding: 20px;
+    text-decoration: none;
+    border: none;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    border-radius: 50px;
+    width: 20rem;
+}
+
+.curso-btnum:hover {
+    background-color: transparent;
+    border: 2px solid rgb(24, 24, 24);
+    color: rgb(24, 24, 24);
+}
