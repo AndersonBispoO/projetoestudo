@@ -1,106 +1,114 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body::after {
-    content: "";
-    background: url(../img/cursos-a-aq.jpg) no-repeat;
-    background-position: center;
-    background-size: 100%;
-    opacity: 0.3;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;   
-  }
+  content: "";
+  background: url(../img/cursos-a-aq.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
 
 .gridmenu {
-    padding-top: 1%;
+  padding-top: 1%;
 }
 
 .footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .barra-cima {
-    background-color: rgb(31, 31, 31);
-    width: 100%;
-    height: 8rem;
+  background-color: rgb(31, 31, 31);
+  width: 100%;
+  height: 8rem;
 }
 
-.barra-cima h1{
-    color: white;
-    text-align: center;
-    padding-top: 2rem;
+.barra-cima h1 {
+  color: white;
+  text-align: center;
+  padding-top: 2rem;
 }
 
 .botoes {
-    text-align: center;
-    padding-top: 18rem;
+  text-align: center;
+  padding-top: 18rem;
 }
 
 .botoes button {
-    margin: 0 305px;
+  margin: 0 305px;
 }
 
 .cursos-btn {
-    padding: 20px;
-    text-decoration: none;
-    border: none;
-    background-color: rgb(24, 24, 24);
-    color: white;
-    border-radius: 50px;
-    width: 20rem;
+  padding: 20px;
+  text-decoration: none;
+  border: none;
+  background-color: rgb(24, 24, 24);
+  color: white;
+  border-radius: 50px;
+  width: 20rem;
 }
 
 .cursos-btn:hover {
-    background-color: transparent;
-    border: 2px solid rgb(24, 24, 24);
-    color: rgb(24, 24, 24);
+  background-color: transparent;
+  border: 2px solid rgb(24, 24, 24);
+  color: rgb(24, 24, 24);
 }
 
 .materiais-btn {
-    padding: 20px;
-    text-decoration: none;
-    border: none;
-    background-color: rgb(24, 24, 24);
-    color: white;
-    border-radius: 50px;
-    width: 20rem;
+  padding: 20px;
+  text-decoration: none;
+  border: none;
+  background-color: rgb(24, 24, 24);
+  color: white;
+  border-radius: 50px;
+  width: 20rem;
 }
 
 .materiais-btn:hover {
-    background-color: transparent;
-    border: 2px solid rgb(24, 24, 24);
-    color: rgb(24, 24, 24);
+  background-color: transparent;
+  border: 2px solid rgb(24, 24, 24);
+  color: rgb(24, 24, 24);
 }
 
 .cursoum {
-    text-align: center;
+  text-align: center;
 }
 
-.cursoum img{
-    padding-top: 1rem;
-    width: 500px;
+.cursoum img {
+  padding-top: 1rem;
+  width: 500px;
 }
 
-.curso-btnum {
-    padding: 20px;
-    text-decoration: none;
-    border: none;
-    background-color: rgb(24, 24, 24);
-    color: white;
-    border-radius: 50px;
-    width: 20rem;
+.cursoum button {
+  padding: 20px;
+  text-decoration: none;
+  border: none;
+  background-color: rgb(24, 24, 24);
+  color: white;
+  border-radius: 50px;
+  width: 400px;
 }
 
 .curso-btnum:hover {
-    background-color: transparent;
-    border: 2px solid rgb(24, 24, 24);
-    color: rgb(24, 24, 24);
+  background-color: transparent;
+  border: 2px solid rgb(24, 24, 24);
+  color: rgb(24, 24, 24);
+}
+
+@media (max-width: 500px) {
+    .cursoum button {
+        width: 90vw;
+    }
 }
