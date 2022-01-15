@@ -45,7 +45,7 @@ body {
 }
 
 .logo1 {
-  padding-left: 20%;
+  padding-left: 10%;
 }
 
 @media (min-width: 940px) {
@@ -74,4 +74,29 @@ body {
     left: 0;
     right: 0;
   }
+
+}
+@media (max-width: 240px) {
+  .cursos {
+    width: 80px;
+  }
+
+  
+  .sobre {
+    width: 30px;
+  }
+
+  
+  .contato {
+    width: 30px;
+  }
+  
+  
+  .login{
+    width: 30px;
+  }
+  #imglogo{
+    width: 150px;
+  }
+
 }
